@@ -1,4 +1,4 @@
-## Administrador De Products PERN
+# Administrador De Products PERN
 
 Este proyecto ns permite ingresar nuevos productos, darles una disponibilidad segun se necesite, editarlos o eliminarlos. El link del repositorio del Frontend estara al final de la info junto con el Preview del proyecto. 
 Para este proyecto completo se usaron las siguientes tecnologias:
@@ -27,6 +27,6 @@ Para este proyecto completo se usaron las siguientes tecnologias:
   - Jest
   - Supertest
 
-Repositorio Frontend: https://github.com/CamiloVelasquezBotero/PERN_TypeScript-AdministradorDeProductos_Frontend
+### Repositorio Frontend: https://github.com/CamiloVelasquezBotero/PERN_TypeScript-AdministradorDeProductos_Frontend
 
-PREVIEW: https://pern-type-script-administrador-de-p.vercel.app/
+### PREVIEW: https://pern-type-script-administrador-de-p.vercel.app/
