@@ -30,3 +30,4 @@ Para este proyecto completo se usaron las siguientes tecnologias:
 ### Repositorio Frontend: https://github.com/CamiloVelasquezBotero/PERN_TypeScript-AdministradorDeProductos_Frontend
 
 ### PREVIEW: https://pern-type-script-administrador-de-p.vercel.app/
+Nota del Preview: La API esta  en un host de hobbie, por lo cual la primera peticion, puede durar alrededor de 50 seg mientras se habilita
