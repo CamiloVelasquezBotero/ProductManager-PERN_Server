@@ -1,4 +1,6 @@
 notas.txt
-.env
+.local
 node_modules
-__tests__
+dist
+package-lock.json
+.env
