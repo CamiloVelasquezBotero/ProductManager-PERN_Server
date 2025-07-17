@@ -1,6 +1,6 @@
 ## Administrador De Products PERN
 
-Este proyecto ns permite ingresar nuevos productos, darles una disponibilidad segun se necesite, editarlos o eliminarlos. Este proyecto una una API-REST creada en Node.js con Express la cual esta subida en otro repositorio aparte, el link de este esta al final junto con el Preview del proyecto. 
+Este proyecto ns permite ingresar nuevos productos, darles una disponibilidad segun se necesite, editarlos o eliminarlos. El link del repositorio del Frontend estara al final de la info junto con el Preview del proyecto. 
 Para este proyecto completo se usaron las siguientes tecnologias:
 
   ## Backend
