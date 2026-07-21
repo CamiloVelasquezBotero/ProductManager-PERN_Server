@@ -12,8 +12,8 @@ A robust, type-safe REST API server built with **Node.js**, **Express**, and **T
 
 ## 🚀 Live Demo & Repository links
 
-- **API Documentation (Swagger):** [Swagger Docs](https://pern-type-script-administrador-de-p.vercel.app/docs)
-- **Live Deployment:** [PERN Product Manager Preview](https://pern-type-script-administrador-de-p.vercel.app/)
+- **API Documentation (Swagger):** Run the server locally and visit [http://localhost:4000/docs/](http://localhost:4000/docs/)
+- **Live Deployment:** [PERN Product Manager Preview (Frontend)](https://pern-type-script-administrador-de-p.vercel.app/)
   > [!NOTE]
   > Since the API server is hosted on a free hobby plan, the first request may take up to **50 seconds** to wake up the server spin-up.
 - **Frontend Client Repository:** [ProductManager-PERN_Client](https://github.com/CamiloVelasquezBotero/ProductManager-PERN_Client)
@@ -109,4 +109,4 @@ src/
 ├── router.ts      # API routes definitions and Swagger annotation blocks
 ├── server.ts      # Server initialization, CORS setup, and middleware stack
 └── index.ts       # Application entry point
-```
+```

@@ -48,8 +48,9 @@ describe('connectDB', () => {
         /* finalmente llamamos la funcion para ejecutarla y que la pueda detectar para testear */
         await connectDB()
         /* Despues ya podemos escribir los (expect)*/
-        expect(consoleSpy).toHaveBeenCalledWith( /*  */
-            expect.stringContaining('Hubo un error al conectar en la base de datos') /* Le pasamos lo que esperamos que nos devuelva  */
+        expect(consoleSpy).toHaveBeenCalledWith(
+            expect.stringContaining('Hubo un error al conectar en la base de datos'),
+            expect.any(Error)
         )
     })
 })

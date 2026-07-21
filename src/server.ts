@@ -27,8 +27,10 @@ const server = express()
 // Permitimos las Conexiones con CORS
 const corsOptions:CorsOptions = {
     origin: function(origin, callback) {
-        if(origin === process.env.FRONTEND_URL) { /* Verificamos que sea el host que esperamos */
-            callback(null, true) /* Al (callback) se le pasa 2 parametros, el primero sera un (error) y el otro el acceso dependiendo al booleano */
+        // Permitimos solicitudes sin origen (como visitas directas al navegador a /docs o herramientas de testeo)
+        // o si el origen coincide con la URL del frontend configurada.
+        if (!origin || origin === process.env.FRONTEND_URL) {
+            callback(null, true)
         } else {
             callback(new Error('Error de CORS'))
         }
