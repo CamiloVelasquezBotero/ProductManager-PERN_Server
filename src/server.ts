@@ -13,10 +13,10 @@ export async function connectDB() {
     try {
         await db.authenticate()
         await db.sync()
-        /* console.log(colors.cyan.bold('Conexion existosa a la base de datos'))  TODO: Quitar de comentario*/
+        console.log(colors.cyan.bold('Conexion existosa a la base de datos'))
     } catch (error) {
         /* console.log(error) */
-        console.log(colors.red.bold('Hubo un error al conectar en la base de datos'))
+        console.log(colors.red.bold('Hubo un error al conectar en la base de datos'), error)
     }
 }
 connectDB()
@@ -28,7 +28,7 @@ const server = express()
 const corsOptions:CorsOptions = {
     origin: function(origin, callback) {
         if(origin === process.env.FRONTEND_URL) { /* Verificamos que sea el host que esperamos */
-            callback(null, true) /* Al (callback) se le pasa 2 parametros, el primero sera un (error) y el otro sera false o true si queremos permitirla */
+            callback(null, true) /* Al (callback) se le pasa 2 parametros, el primero sera un (error) y el otro el acceso dependiendo al booleano */
         } else {
             callback(new Error('Error de CORS'))
         }
